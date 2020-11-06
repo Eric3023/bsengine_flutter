@@ -1,0 +1,124 @@
+name: bsengine_flutter
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  dio:  ^3.0.0
+  flutter_swiper: ^1.1.4
+  flutter_screenutil:  ^0.5.1
+  url_launcher: ^5.0.1
+  flutter_easyrefresh:  ^1.2.7
+  provide: ^1.0.2
+  fluttertoast:  ^3.0.1
+  fluro: ^1.7.7
+  flutter_html:  ^0.9.6
+  sqflite: ^1.1.0
+  shared_preferences:  ^0.5.1
+  flutter_staggered_grid_view:
+  cached_network_image: ^2.0.0-rc
+  loading_indicator_view: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/tabs/home_normal.png
+    - assets/images/tabs/home_selected.png
+    - assets/images/tabs/activity_normal.png
+    - assets/images/tabs/activity_selected.png
+    - assets/images/tabs/media_normal.png
+    - assets/images/tabs/media_selected.png
+    - assets/images/tabs/mine_normal.png
+    - assets/images/tabs/mine_selected.png
+    - assets/images/background/home_options.jpg
+    - assets/images/background/mine.jpg
+    - assets/images/icon/icon_list.png
+    - assets/images/icon/icon_search.png
+    - assets/images/mine/icon_bank.png
+    - assets/images/mine/icon_mine_collection.jpg
+    - assets/images/mine/icon_mine_enter.png
+    - assets/images/mine/icon_mine_proxy.jpg
+    - assets/images/mine/icon_mine_quan.jpg
+    - assets/images/mine/icon_mine_rmb.jpg
+    - assets/images/mine/icon_mine_setting.png
+    - assets/images/mine/icon_password.png
+    - assets/images/mine/icon_header.png
+    - assets/images/icon/icon_media.png
+    - assets/images/icon/icon_password.jpg
+    - assets/images/icon/icon_search2.png
+    - assets/images/icon/icon_clear.png
+    - assets/images/background/activity.jpg
+    - assets/images/activity/icon_cancel.png
+    - assets/images/activity/icon_completed.png
+    - assets/images/activity/icon_refused.png
+    - assets/images/activity/icon_stopped.png
+    - assets/images/activity/icon_wait_action.png
+    - assets/images/activity/icon_wait_exam.png
+    - assets/images/activity/icon_wait_receive.png
+    - assets/images/activity/icon_wait_tested.png
+    - assets/images/background/login.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
